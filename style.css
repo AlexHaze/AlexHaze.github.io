@@ -25,6 +25,7 @@ body{
     left: 0px;
     bottom: 0px;
     background-image: url("imgs/yasuo.png");
+    margin-left: 1rem;
 }
 
 #rightimg{
