@@ -38,7 +38,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 7rem;
 }
 header *{
     margin: 1rem;
@@ -81,7 +81,8 @@ table, td, th {
 #bingo-table{
     table-layout: fixed;
     background-color:	#F8F8F8;
-    width:50%
+    width:50%;
+    font-size:1.3rem;
 }
 
 #bingo-table td{
