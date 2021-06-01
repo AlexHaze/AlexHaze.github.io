@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "LOL";
+    src: url("fonts/Friz\ Quadrata\ Regular.ttf");
+}
+
+.lol-font{
+    font-family: "LOL";
+}
+
+body{
+    background-color: #07121A;
+}
+
+.bgimg{
+    z-index: -1;
+    position: absolute;
+    top:0px;
+    width:25rem;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+#leftimg{
+    left: 0px;
+    bottom: 0px;
+    background-image: url("imgs/yasuo.png");
+}
+
+#rightimg{
+    right: 0px;
+    bottom: 0px;
+    background-image: url("imgs/sett.png");
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+header *{
+    margin: 1rem;
+}
+
+.dumbell-icon{
+    height: 3rem;
+    width: 3rem;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+#dumbell-left{
+    background-image: url("imgs/dumbbell_blue.png");
+}
+
+#dumbell-right{
+    background-image: url("imgs/dumbbell_red.png");
+}
+
+#title{
+    font-size: 2rem;
+    color: #C28F2C;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, td, th { 
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#bingo-table{
+    table-layout: fixed;
+    background-color:	#F8F8F8;
+    width:50%
+}
+
+#bingo-table td{
+    width: 10rem;
+    height: 7rem;
+}
+
+#reset-button{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: #6C757D;
+}
+
+.red-text{
+    color: red;
+}
