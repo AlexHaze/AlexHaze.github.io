@@ -7,7 +7,7 @@ const EXERCISES = ["plank", "lunges", "jumping jacks", "T push-ups",
                     "squats", "diamond push-ups", "dips", "dumbell rows",
                     "press-ups", "push-ups", "star plank", "bicycle crunches",
                     "burpees", "pike push-ups", "leg raises", "bodyweight squats"];
-const REPETITIONS = ["30\'", "15x (each leg)", "30x", "10x", 
+const REPETITIONS = ["1\'", "15x (each leg)", "30x", "10x", 
                     "30x", "15x", "10x", "15x (each arm)",
                     "20x", "15x", "30\"", "10x (each side)",
                     "10x", "15x", "20x", "20x"];
